@@ -10,9 +10,9 @@ for interval in intervals:
     lower = int(bounds[0])
     upper = int(bounds[1]) + 1
     for id in range(lower, upper):
-        digits = len(str(id))
+        id_str = str(id)
+        digits = len(id_str)
         if digits % 2 == 0:
-            id_str = str(id)
             half_digits = int(digits / 2)
             if id_str[:half_digits] == id_str[-half_digits:]:
                 sum += id
