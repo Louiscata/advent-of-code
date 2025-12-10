@@ -1,4 +1,4 @@
-file = open("puzzle-1-input.txt", "r")
+file = open('puzzle-1-input.txt', 'r')
 
 pos = 50
 pwd = 0
